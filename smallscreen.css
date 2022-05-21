@@ -1,0 +1,317 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    background: #FAFAFA;
+    overflow-x: hidden;
+    width: 390px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+
+    position: absolute;
+    height: 129.42px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 0px;
+    position: fixed;
+    z-index: 3;
+}
+
+header img {
+    width: 70px;
+    height: 69.42px;
+    margin-left: 32px
+}
+
+#txtSearch{
+   display: none;
+}
+
+.searchLupa {
+    height: 40px;
+    background-color: transparent;
+    border: 0.334358px solid rgba(96, 96, 96, 0.3);
+    border-radius: 8px;
+    display: flex;
+    width: 40px;
+    padding: 0px;
+    margin-right: 34.71px;
+
+    
+}
+
+.searchLupa img {
+
+    width: 13.37px;
+    height: 13.37px;
+    margin-right: 13.3px;
+    margin-left: 13.3px;
+    margin-top: 13.3px;
+    margin-bottom: 13.3px;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;    
+    margin-top: 170px;
+    margin-left: 32px
+}
+
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;    
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-top: 18px;
+
+}
+
+.smallCards{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.cardTablito{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13.261px;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+    margin-right: 18px;
+     
+
+}
+
+.cardTablito img {
+    width: 136px;
+    height: 136px;
+   
+
+
+    
+}
+
+.cardBrigadeiro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13.261px;
+    
+    position: relative;
+
+    
+    
+    background: #FFFFFF;
+    box-shadow: 0px 2.21017px 8.84068px rgba(0, 0, 0, 0.04);
+    border-radius: 8.84068px;
+    order: 1;
+    margin-bottom: 18px;
+}
+
+.cardBrigadeiro img {
+    width: 106.09px;
+    height: 106.09px;
+}
+
+
+.cardAzul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13.261px;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+    order: 2;
+}
+
+.cardAzul img {
+    width: 106.09px;
+    height: 106.09px;
+}
+
+.cardChicabon{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13.261px;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+    margin-left: 18px;
+    order: 2;
+}
+
+.cardChicabon img {
+    width: 136px;
+    height: 136px;
+}
+
+.cardMorango{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13.261px;
+   
+
+    position: relative;
+    
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+    margin-bottom: 18px;
+}
+
+.cardMorango img {
+    width: 106.09px;
+    height: 106.09px;
+}
+
+.cardMinion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13.261px;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+}
+
+.cardMinion img {
+    width: 106.09px;
+    height: 106.09px;
+}
+
+h1 {
+    width: 149.19px;
+    height: 22px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.6814px;
+    line-height: 22px;
+    color: #292929;
+    margin-top: 17.13px;
+    margin-bottom: 0px;
+}
+
+p{
+    width: 149.19px;
+    height: 22px;
+    margin-top: 4.42px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8.84068px;
+    line-height: 11px;
+
+
+    color: #606060
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4.42034px;
+    gap: 5.53px;
+    background: rgba(249, 199, 191, 0.5);
+    border-radius: 4.42034px;
+    font-weight: 400;
+    font-size: 13.261px;
+    line-height: 16px;
+    margin-bottom: 0x;
+
+    color: #000000;
+    margin-top: 17.13px;
+    
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 155.02px;
+    margin-top: 38px;
+
+    
+    background: #F2F2F2;
+}
+
+#socialMedia{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    justify-content: center;
+
+    width: 253px;
+    height: 35px;
+    
+}
+
+
+.socialMediaIcon {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-top: 32px;
+}
+
+.socialMediaIcon img {
+    width: 25px;
+    height: 25px;
+}
+
+
+
+#logo{
+    display: none;
+}
+
+#message{
+    height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #292929;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+

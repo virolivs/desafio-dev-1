@@ -1,0 +1,295 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    background: #FAFAFA;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    align-items: center;
+    padding: 0px 114px;
+    gap: 540px;
+    height: 199px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    
+
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 0px;
+    position: fixed;
+    z-index: 3;
+}
+
+
+
+.SearchField{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;
+
+    width: 450px;
+    height: 61px;
+
+    background: #FFFFFF;
+    border: 0.5px solid rgba(96, 96, 96, 0.3);
+    border-radius: 8px;
+}
+
+#txtSearch{
+    width: 398px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    border: none;
+    color: rgba(96, 96, 96, 0.6);
+}
+
+.searchLupa {
+    border: none;
+    background-color: transparent;
+    
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    position: relative;
+    margin-top: 280px;
+    
+    
+
+}
+
+.container1 {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    position: relative;
+
+}
+.container2{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    position: relative;    
+}
+
+
+
+.cardTablito{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    
+    position: relative;
+    
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+    margin-right: 31px;
+
+
+}
+
+
+
+.cardBrigadeiro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    
+
+    position: relative;
+   
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+    margin-bottom: 31px;
+}
+
+.cardAzul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+   
+
+    position: relative;
+    
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+}
+
+.cardChicabon{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    margin-left: 31px;
+    margin-right: 31px;
+
+    position: relative;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+}
+
+.cardMorango{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    margin-bottom: 31px;
+    
+    position: relative;
+    
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+}
+
+.cardMinion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    
+
+    position: relative;
+   
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+}
+
+h1 {
+    width: 270px;
+    height: 39px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #292929;
+    margin-top: 31px;
+    margin-bottom: 0px;
+}
+
+p{
+    width: 270px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+
+    color: #606060;
+}
+
+.price {
+    align-items: flex-start;
+    padding: 8px;
+    gap: 10px;
+    background: rgba(249, 199, 191, 0.5);
+    border-radius: 8px;
+    width: 89px;
+    height: 29px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 31px;
+    
+
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 114px;
+    
+
+    position: absolute;
+    height: 155.02px;
+    left: 0%;
+    right: 0%;
+    bottom: 0px;
+    top: 869px;
+
+
+    
+    background: #F2F2F2;
+
+}
+
+#socialMedia{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+
+    width: 253px;
+    height: 35px;
+}
+
+.socialMediaIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+
+
+
+
+
+#message{
+    height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #292929;
+}
+
